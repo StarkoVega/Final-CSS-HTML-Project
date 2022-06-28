@@ -113,6 +113,12 @@ a {
   width: 100%;
 }
 
+.flex__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .link__hover-efect:after {
   content: "";
   position: absolute;
@@ -439,4 +445,111 @@ a {
 
 #values .section__btn {
   margin-top: 48px;
+}
+
+/* PRICING */
+
+.pricings {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.pricing-box {
+  width: 100%;
+  max-width: 384px;
+  padding: 8px 32px 0;
+  margin: 64px 32px 0 0;
+  border-radius: 8px;
+  position: relative;
+}
+
+.pricing-box__styling-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 8px;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.pricing-box__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.pricing-box__header--name {
+  color: #1a202c;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.625;
+}
+
+.pricing-box__header--price {
+  color: #1a202c;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.625;
+  margin: 4px 0;
+}
+
+.pricing-box__header--duration {
+  color: #a0aec0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.625;
+  letter-spacing: 1.6px;
+}
+
+.pricing-box__features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  margin: 0 -32px;
+  border: 0 solid #e5e7eb;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+}
+
+.pricing-box__features--main-feature {
+  color: #1a202c;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.pricing-box__features--feature {
+  color: #718096;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.pricing-box__btn--wrapper {
+  padding: 32px 64px;
+}
+
+.pricing-box__btn {
+  color: #f7fafc;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+  border: 0;
+  border-radius: 100px;
+  width: 100%;
+  padding: 16px 32px;
 }
