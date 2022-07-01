@@ -716,3 +716,39 @@ a {
   margin: 12px 0;
   border: 1px solid #e5e7eb;
 }
+
+/* FAQS */
+
+.question__list {
+  margin-top: 48px;
+  width: 100%;
+  max-width: 896px;
+}
+
+.question {
+  background-color: #edf2f7;
+  padding: 16px 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question__text {
+  color: #2d3748;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.question__toggle-icon--wrapper {
+  color: #2d3748;
+  margin-left: 8px;
+  display: flex;
+}
+
+.question__toggle-icon {
+  width: 24px;
+  height: 24px;
+}
