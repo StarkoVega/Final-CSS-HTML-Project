@@ -752,3 +752,28 @@ a {
   width: 24px;
   height: 24px;
 }
+
+/* GET STARTED */
+
+.get-started {
+  background-color: #6415ff;
+  border-radius: 8px;
+  padding: 96px 0;
+}
+
+.get-started__container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.get-started__text {
+  color: #f7fafc;
+  font-size: 30px;
+  font-weight: 700;
+  width: 50%;
+}
