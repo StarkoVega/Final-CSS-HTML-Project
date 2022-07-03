@@ -784,4 +784,24 @@ a {
   font-weight: 700;
   border-radius: 300px;
   padding: 20px 40px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.get-started__btn--red {
+  background-color: #f56565;
+  margin-right: 32px;
+}
+
+.get-started__btn--red:hover {
+  background-color: #f03939;
+}
+
+.get-started__btn--white {
+  border: 1px solid #a0aec0;
+}
+
+.get-started__btn--white:hover {
+  background-color: #f7fafc;
+  color: #6415ff;
 }
