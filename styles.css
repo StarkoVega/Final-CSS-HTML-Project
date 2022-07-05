@@ -805,3 +805,21 @@ a {
   background-color: #f7fafc;
   color: #6415ff;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #6415ff;
+  margin: 0 -32px -32px -32px;
+}
+
+.links__columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link__column {
+  margin-top: 48px;
+  width: auto;
+}
+
